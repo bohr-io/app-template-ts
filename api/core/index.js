@@ -1,7 +1,1 @@
-exports.handler = async (event) => {
-    const response = {
-        statusCode: 200,
-        body: JSON.stringify('Hello World!!'),
-    };
-    return response;
-};
+module.exports = require('./dist/index.js');

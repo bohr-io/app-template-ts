@@ -4,7 +4,7 @@ import createAPI from 'lambda-api';
 const api = createAPI();
 
 api.get('/', async (req, res) => {
-    return { status: 'Hello from Function!' };
+    return { status: 'Hello from Function!!' };
 });
 
 export async function handler(event: APIGatewayEvent, context: Context) {
